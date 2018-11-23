@@ -1,0 +1,932 @@
+{
+  "users": [
+    {
+      "id": "5bf8098b3f8d3c17eba5cb9e",
+      "name": "Admin",
+      "email": "admin@email.com",
+      "password": "admin"
+    },
+    {
+      "id": "5bf8098b025267e150b8c312",
+      "name": "Super Admin",
+      "email": "super_admin@email.com",
+      "password": "super_admin"
+    }
+  ],
+  "workers": [
+    {
+      "id": "5bf80b6f57cab6df7310e146",
+      "asset_id": "2022",
+      "tag_id": "3020",
+      "name": "Shaw Fuentes",
+      "hours_worked": {
+        "last_week": {
+          "monday": 10,
+          "tuesday": 7,
+          "wednesday": 6,
+          "thursday": 11,
+          "friday": 7,
+          "saturday": 10,
+          "sunday": 9
+        },
+        "total": 2373
+      },
+      "area": "Zone 1",
+      "helmets": [
+        {
+          "id": "987654325",
+          "class": "IN-003"
+        },
+        {
+          "id": "987654326",
+          "class": "IN-004"
+        }
+      ],
+      "supervisor_id": "5bf80b6fc53a6de08e7c1b28"
+    },
+    {
+      "id": "5bf80b6fd5b32fb549911646",
+      "asset_id": "2005",
+      "tag_id": "3003",
+      "name": "Dominguez Hopper",
+      "hours_worked": {
+        "last_week": {
+          "monday": 11,
+          "tuesday": 8,
+          "wednesday": 12,
+          "thursday": 11,
+          "friday": 7,
+          "saturday": 6,
+          "sunday": 7
+        },
+        "total": 2953
+      },
+      "area": "Zone 2",
+      "helmets": [
+        {
+          "id": "987654326",
+          "class": "IN-004"
+        },
+        {
+          "id": "987654324",
+          "class": "IN-004"
+        }
+      ],
+      "supervisor_id": "5bf80b6fc53a6de08e7c1b28"
+    },
+    {
+      "id": "5bf80b6f640b480cda4027d7",
+      "asset_id": 2021,
+      "tag_id": 3007,
+      "name": "Myers Mathis",
+      "hours_worked": {
+        "last_week": {
+          "monday": 12,
+          "tuesday": 8,
+          "wednesday": 10,
+          "thursday": 8,
+          "friday": 7,
+          "saturday": 9,
+          "sunday": 6
+        },
+        "total": 2681
+      },
+      "area": "Zone 2",
+      "helmets": [
+        {
+          "id": 987654324,
+          "class": "IN-002"
+        },
+        {
+          "id": 987654329,
+          "class": "IN-005"
+        }
+      ],
+      "supervisor_id": "5bf80b6fc53a6de08e7c1b28"
+    },
+    {
+      "id": "5bf80b6f4d61fe4c50431d4d",
+      "asset_id": 2025,
+      "tag_id": 3012,
+      "name": "Hardy Wells",
+      "hours_worked": {
+        "last_week": {
+          "monday": 6,
+          "tuesday": 11,
+          "wednesday": 7,
+          "thursday": 11,
+          "friday": 7,
+          "saturday": 12,
+          "sunday": 11
+        },
+        "total": 1650
+      },
+      "area": "Zone 2",
+      "helmets": [
+        {
+          "id": 987654323,
+          "class": "IN-007"
+        },
+        {
+          "id": 987654324,
+          "class": "IN-004"
+        }
+      ],
+      "supervisor_id": "5bf80b6fc53a6de08e7c1b28"
+    },
+    {
+      "id": "5bf80b6f6e370ecc6da1dfb5",
+      "asset_id": 2007,
+      "tag_id": 3005,
+      "name": "Hawkins Gregory",
+      "hours_worked": {
+        "last_week": {
+          "monday": 7,
+          "tuesday": 10,
+          "wednesday": 9,
+          "thursday": 7,
+          "friday": 10,
+          "saturday": 9,
+          "sunday": 6
+        },
+        "total": 2691
+      },
+      "area": "Zone 2",
+      "helmets": [
+        {
+          "id": 987654321,
+          "class": "IN-003"
+        },
+        {
+          "id": 987654328,
+          "class": "IN-005"
+        }
+      ],
+      "supervisor_id": "5bf80b6fc53a6de08e7c1b28"
+    },
+    {
+      "id": "5bf80b6f51717e07647b03f2",
+      "asset_id": 2028,
+      "tag_id": 3018,
+      "name": "Duncan Moreno",
+      "hours_worked": {
+        "last_week": {
+          "monday": 10,
+          "tuesday": 12,
+          "wednesday": 9,
+          "thursday": 11,
+          "friday": 12,
+          "saturday": 11,
+          "sunday": 9
+        },
+        "total": 2143
+      },
+      "area": "Zone 1",
+      "helmets": [
+        {
+          "id": 987654324,
+          "class": "IN-005"
+        },
+        {
+          "id": 987654327,
+          "class": "IN-007"
+        }
+      ],
+      "supervisor_id": "5bf80b6fc53a6de08e7c1b28"
+    },
+    {
+      "id": "5bf80b6f30abe3cf94881fcb",
+      "asset_id": 2004,
+      "tag_id": 3023,
+      "name": "Vicky Tran",
+      "hours_worked": {
+        "last_week": {
+          "monday": 7,
+          "tuesday": 9,
+          "wednesday": 10,
+          "thursday": 7,
+          "friday": 11,
+          "saturday": 10,
+          "sunday": 6
+        },
+        "total": 1518
+      },
+      "area": "Zone 2",
+      "helmets": [
+        {
+          "id": 987654324,
+          "class": "IN-003"
+        },
+        {
+          "id": 987654325,
+          "class": "IN-005"
+        }
+      ],
+      "supervisor_id": "5bf80b6fc53a6de08e7c1b28"
+    },
+    {
+      "id": "5bf80b6fda866c385fe22b42",
+      "asset_id": 2015,
+      "tag_id": 3010,
+      "name": "Shelton Eaton",
+      "hours_worked": {
+        "last_week": {
+          "monday": 6,
+          "tuesday": 9,
+          "wednesday": 6,
+          "thursday": 8,
+          "friday": 9,
+          "saturday": 6,
+          "sunday": 6
+        },
+        "total": 2625
+      },
+      "area": "Zone 1",
+      "helmets": [
+        {
+          "id": 987654326,
+          "class": "IN-007"
+        },
+        {
+          "id": 987654329,
+          "class": "IN-007"
+        }
+      ],
+      "supervisor_id": "5bf80b6fc53a6de08e7c1b28"
+    },
+    {
+      "id": "5bf80b6fba021039bf8c39fb",
+      "asset_id": 2001,
+      "tag_id": 3001,
+      "name": "Nora Tyson",
+      "hours_worked": {
+        "last_week": {
+          "monday": 10,
+          "tuesday": 11,
+          "wednesday": 12,
+          "thursday": 9,
+          "friday": 9,
+          "saturday": 10,
+          "sunday": 10
+        },
+        "total": 1991
+      },
+      "area": "Zone 1",
+      "helmets": [
+        {
+          "id": 987654325,
+          "class": "IN-004"
+        },
+        {
+          "id": 987654329,
+          "class": "IN-007"
+        }
+      ],
+      "supervisor_id": "5bf80b6fc53a6de08e7c1b28"
+    },
+    {
+      "id": "5bf80b6ff31944f00abdcfad",
+      "asset_id": 2014,
+      "tag_id": 3009,
+      "name": "Mercado Wilson",
+      "hours_worked": {
+        "last_week": {
+          "monday": 7,
+          "tuesday": 9,
+          "wednesday": 8,
+          "thursday": 9,
+          "friday": 8,
+          "saturday": 11,
+          "sunday": 6
+        },
+        "total": 2185
+      },
+      "area": "Zone 3",
+      "helmets": [
+        {
+          "id": 987654326,
+          "class": "IN-003"
+        },
+        {
+          "id": 987654326,
+          "class": "IN-003"
+        }
+      ],
+      "supervisor_id": "5bf80b6fc53a6de08e7c1b28"
+    },
+    {
+      "id": "5bf80b6f6fdbc1bcbd984ee1",
+      "asset_id": 2010,
+      "tag_id": 3030,
+      "name": "Laverne Kaufman",
+      "hours_worked": {
+        "last_week": {
+          "monday": 10,
+          "tuesday": 6,
+          "wednesday": 11,
+          "thursday": 11,
+          "friday": 10,
+          "saturday": 12,
+          "sunday": 9
+        },
+        "total": 1591
+      },
+      "area": "Zone 2",
+      "helmets": [
+        {
+          "id": 987654328,
+          "class": "IN-008"
+        },
+        {
+          "id": 987654322,
+          "class": "IN-005"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6f441ac1aaa854e548",
+      "asset_id": 2010,
+      "tag_id": 3011,
+      "name": "Miles Yates",
+      "hours_worked": {
+        "last_week": {
+          "monday": 11,
+          "tuesday": 11,
+          "wednesday": 9,
+          "thursday": 6,
+          "friday": 11,
+          "saturday": 9,
+          "sunday": 8
+        },
+        "total": 2886
+      },
+      "area": "Zone 3",
+      "helmets": [
+        {
+          "id": 987654326,
+          "class": "IN-001"
+        },
+        {
+          "id": 987654321,
+          "class": "IN-006"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6f13f4303aee4fc270",
+      "asset_id": 2028,
+      "tag_id": 3021,
+      "name": "Sherman Cruz",
+      "hours_worked": {
+        "last_week": {
+          "monday": 12,
+          "tuesday": 9,
+          "wednesday": 11,
+          "thursday": 8,
+          "friday": 9,
+          "saturday": 9,
+          "sunday": 11
+        },
+        "total": 2725
+      },
+      "area": "Zone 3",
+      "helmets": [
+        {
+          "id": 987654321,
+          "class": "IN-007"
+        },
+        {
+          "id": 987654328,
+          "class": "IN-004"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6f96eb2f63cebe3241",
+      "asset_id": 2023,
+      "tag_id": 3025,
+      "name": "Lottie Maldonado",
+      "hours_worked": {
+        "last_week": {
+          "monday": 9,
+          "tuesday": 11,
+          "wednesday": 6,
+          "thursday": 10,
+          "friday": 7,
+          "saturday": 12,
+          "sunday": 8
+        },
+        "total": 1764
+      },
+      "area": "Zone 2",
+      "helmets": [
+        {
+          "id": 987654323,
+          "class": "IN-001"
+        },
+        {
+          "id": 987654326,
+          "class": "IN-003"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6f79efa5c163c810a4",
+      "asset_id": 2022,
+      "tag_id": 3005,
+      "name": "Simone Kramer",
+      "hours_worked": {
+        "last_week": {
+          "monday": 11,
+          "tuesday": 7,
+          "wednesday": 6,
+          "thursday": 6,
+          "friday": 7,
+          "saturday": 12,
+          "sunday": 7
+        },
+        "total": 1556
+      },
+      "area": "Zone 3",
+      "helmets": [
+        {
+          "id": 987654327,
+          "class": "IN-005"
+        },
+        {
+          "id": 987654329,
+          "class": "IN-002"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6f4a6a75404aa76ccf",
+      "asset_id": 2017,
+      "tag_id": 3020,
+      "name": "Petty Day",
+      "hours_worked": {
+        "last_week": {
+          "monday": 11,
+          "tuesday": 11,
+          "wednesday": 6,
+          "thursday": 12,
+          "friday": 10,
+          "saturday": 10,
+          "sunday": 12
+        },
+        "total": 2387
+      },
+      "area": "Zone 3",
+      "helmets": [
+        {
+          "id": 987654324,
+          "class": "IN-006"
+        },
+        {
+          "id": 987654327,
+          "class": "IN-001"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6f04d77affbe160c03",
+      "asset_id": 2014,
+      "tag_id": 3024,
+      "name": "Potter Navarro",
+      "hours_worked": {
+        "last_week": {
+          "monday": 9,
+          "tuesday": 12,
+          "wednesday": 9,
+          "thursday": 11,
+          "friday": 11,
+          "saturday": 9,
+          "sunday": 10
+        },
+        "total": 2084
+      },
+      "area": "Zone 3",
+      "helmets": [
+        {
+          "id": 987654328,
+          "class": "IN-007"
+        },
+        {
+          "id": 987654328,
+          "class": "IN-005"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6f43d4e23c492328ad",
+      "asset_id": 2004,
+      "tag_id": 3006,
+      "name": "Erin Knowles",
+      "hours_worked": {
+        "last_week": {
+          "monday": 7,
+          "tuesday": 6,
+          "wednesday": 6,
+          "thursday": 11,
+          "friday": 12,
+          "saturday": 8,
+          "sunday": 12
+        },
+        "total": 2625
+      },
+      "area": "Zone 3",
+      "helmets": [
+        {
+          "id": 987654324,
+          "class": "IN-006"
+        },
+        {
+          "id": 987654322,
+          "class": "IN-008"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6f509ee8dea2ba4227",
+      "asset_id": 2008,
+      "tag_id": 3020,
+      "name": "Kitty Trevino",
+      "hours_worked": {
+        "last_week": {
+          "monday": 6,
+          "tuesday": 10,
+          "wednesday": 7,
+          "thursday": 7,
+          "friday": 6,
+          "saturday": 12,
+          "sunday": 8
+        },
+        "total": 2037
+      },
+      "area": "Zone 2",
+      "helmets": [
+        {
+          "id": 987654328,
+          "class": "IN-003"
+        },
+        {
+          "id": 987654323,
+          "class": "IN-001"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6f50dad12bc6182e54",
+      "asset_id": 2010,
+      "tag_id": 3012,
+      "name": "Mendez Hogan",
+      "hours_worked": {
+        "last_week": {
+          "monday": 8,
+          "tuesday": 9,
+          "wednesday": 6,
+          "thursday": 7,
+          "friday": 8,
+          "saturday": 11,
+          "sunday": 6
+        },
+        "total": 1542
+      },
+      "area": "Zone 2",
+      "helmets": [
+        {
+          "id": 987654325,
+          "class": "IN-004"
+        },
+        {
+          "id": 987654328,
+          "class": "IN-002"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6f2a6d0e86f58d5f36",
+      "asset_id": 2026,
+      "tag_id": 3010,
+      "name": "Mason Joyce",
+      "hours_worked": {
+        "last_week": {
+          "monday": 6,
+          "tuesday": 10,
+          "wednesday": 12,
+          "thursday": 9,
+          "friday": 7,
+          "saturday": 8,
+          "sunday": 12
+        },
+        "total": 1527
+      },
+      "area": "Zone 1",
+      "helmets": [
+        {
+          "id": 987654321,
+          "class": "IN-001"
+        },
+        {
+          "id": 987654326,
+          "class": "IN-007"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6ff9c64e6121bdc19a",
+      "asset_id": 2009,
+      "tag_id": 3026,
+      "name": "Ford Marquez",
+      "hours_worked": {
+        "last_week": {
+          "monday": 7,
+          "tuesday": 8,
+          "wednesday": 12,
+          "thursday": 8,
+          "friday": 8,
+          "saturday": 8,
+          "sunday": 7
+        },
+        "total": 2597
+      },
+      "area": "Zone 3",
+      "helmets": [
+        {
+          "id": 987654324,
+          "class": "IN-008"
+        },
+        {
+          "id": 987654326,
+          "class": "IN-006"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6f8e616efa290c3fd4",
+      "asset_id": 2001,
+      "tag_id": 3001,
+      "name": "Newton Landry",
+      "hours_worked": {
+        "last_week": {
+          "monday": 9,
+          "tuesday": 10,
+          "wednesday": 12,
+          "thursday": 9,
+          "friday": 6,
+          "saturday": 7,
+          "sunday": 7
+        },
+        "total": 2248
+      },
+      "area": "Zone 2",
+      "helmets": [
+        {
+          "id": 987654323,
+          "class": "IN-008"
+        },
+        {
+          "id": 987654327,
+          "class": "IN-002"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6f0845867179ce09ab",
+      "asset_id": 2011,
+      "tag_id": 3028,
+      "name": "Katina Daniel",
+      "hours_worked": {
+        "last_week": {
+          "monday": 12,
+          "tuesday": 6,
+          "wednesday": 6,
+          "thursday": 6,
+          "friday": 7,
+          "saturday": 9,
+          "sunday": 8
+        },
+        "total": 1700
+      },
+      "area": "Zone 1",
+      "helmets": [
+        {
+          "id": 987654326,
+          "class": "IN-003"
+        },
+        {
+          "id": 987654325,
+          "class": "IN-005"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6f5d4a5cd5c30cf9db",
+      "asset_id": 2029,
+      "tag_id": 3011,
+      "name": "Janice Sparks",
+      "hours_worked": {
+        "last_week": {
+          "monday": 12,
+          "tuesday": 11,
+          "wednesday": 8,
+          "thursday": 8,
+          "friday": 6,
+          "saturday": 11,
+          "sunday": 8
+        },
+        "total": 2865
+      },
+      "area": "Zone 1",
+      "helmets": [
+        {
+          "id": 987654326,
+          "class": "IN-001"
+        },
+        {
+          "id": 987654328,
+          "class": "IN-007"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6ff421fa910c861067",
+      "asset_id": 2027,
+      "tag_id": 3007,
+      "name": "Leona Graves",
+      "hours_worked": {
+        "last_week": {
+          "monday": 6,
+          "tuesday": 6,
+          "wednesday": 10,
+          "thursday": 12,
+          "friday": 12,
+          "saturday": 8,
+          "sunday": 7
+        },
+        "total": 1557
+      },
+      "area": "Zone 2",
+      "helmets": [
+        {
+          "id": 987654327,
+          "class": "IN-006"
+        },
+        {
+          "id": 987654324,
+          "class": "IN-008"
+        }
+      ],
+      "supervisor_id": "5bf80b6f0b3857ca16252624"
+    },
+    {
+      "id": "5bf80b6fec3e4780a1353653",
+      "asset_id": 2007,
+      "tag_id": 3020,
+      "name": "Bradshaw Bradshaw",
+      "hours_worked": {
+        "last_week": {
+          "monday": 11,
+          "tuesday": 8,
+          "wednesday": 10,
+          "thursday": 7,
+          "friday": 7,
+          "saturday": 9,
+          "sunday": 8
+        },
+        "total": 2594
+      },
+      "area": "Zone 3",
+      "helmets": [
+        {
+          "id": 987654326,
+          "class": "IN-006"
+        },
+        {
+          "id": 987654321,
+          "class": "IN-007"
+        }
+      ],
+      "supervisor_id": "5bf80b6fef97fb33c928f35a"
+    },
+    {
+      "id": "5bf80b6fa63695c299e83014",
+      "asset_id": 2024,
+      "tag_id": 3023,
+      "name": "Pratt Tucker",
+      "hours_worked": {
+        "last_week": {
+          "monday": 8,
+          "tuesday": 8,
+          "wednesday": 12,
+          "thursday": 10,
+          "friday": 9,
+          "saturday": 9,
+          "sunday": 6
+        },
+        "total": 2546
+      },
+      "area": "Zone 3",
+      "helmets": [
+        {
+          "id": 987654326,
+          "class": "IN-006"
+        },
+        {
+          "id": 987654326,
+          "class": "IN-004"
+        }
+      ],
+      "supervisor_id": "5bf80b6fef97fb33c928f35a"
+    },
+    {
+      "id": "5bf80b6f8e92ad8fe0381e06",
+      "asset_id": 2003,
+      "tag_id": 3020,
+      "name": "Bass Fields",
+      "hours_worked": {
+        "last_week": {
+          "monday": 9,
+          "tuesday": 8,
+          "wednesday": 10,
+          "thursday": 10,
+          "friday": 12,
+          "saturday": 11,
+          "sunday": 12
+        },
+        "total": 1937
+      },
+      "area": "Zone 1",
+      "helmets": [
+        {
+          "id": 987654328,
+          "class": "IN-003"
+        },
+        {
+          "id": 987654322,
+          "class": "IN-007"
+        }
+      ],
+      "supervisor_id": "5bf80b6fef97fb33c928f35a"
+    },
+    {
+      "id": "5bf80b6fbb270793dcc0dd7d",
+      "asset_id": 2028,
+      "tag_id": 3021,
+      "name": "Amber Floyd",
+      "hours_worked": {
+        "last_week": {
+          "monday": 11,
+          "tuesday": 7,
+          "wednesday": 8,
+          "thursday": 12,
+          "friday": 11,
+          "saturday": 6,
+          "sunday": 6
+        },
+        "total": 1931
+      },
+      "area": "Zone 2",
+      "helmets": [
+        {
+          "id": 987654329,
+          "class": "IN-001"
+        },
+        {
+          "id": 987654326,
+          "class": "IN-002"
+        }
+      ],
+      "supervisor_id": "5bf80b6fef97fb33c928f35a"
+    }
+  ],
+  "supervisors": [
+    {
+      "id": "5bf80b6fc53a6de08e7c1b28",
+      "name": "Bryan Norton"
+    },
+    {
+      "id": "5bf80b6f0b3857ca16252624",
+      "name": "Schneider Harvey"
+    },
+    {
+      "id": "5bf80b6fef97fb33c928f35a",
+      "name": "Deborah Wright"
+    }
+  ]
+}
