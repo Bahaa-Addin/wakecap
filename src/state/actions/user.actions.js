@@ -1,7 +1,5 @@
 import { userServices } from '../../services';
-// import { alertActions } from './alertActions';
 import {setUser, removeUser, setToken, removeToken} from '../../helpers';
-// import {history} from "../../helpers/browserHistory";
 
 export const USER_LOGIN_REQUEST = 'USER_LOGIN_REQUEST';
 export const USER_LOGIN_SUCCESS = 'USER_LOGIN_SUCCESS';
@@ -27,22 +25,17 @@ const login = ({email, password}) => {
         },
         error => {
           dispatch(failure(error));
-          // dispatch(alertActions.error(error));
-
           removeUser();
         }
       )
       .catch(error => {
         dispatch(failure(error));
-        // dispatch(alertActions.error(error));
-
         removeUser();
       })
   };
 };
 
 const logout = () => {
-  // history.push('/login');
   removeUser();
   removeToken();
   return { type: USER_LOGOUT };

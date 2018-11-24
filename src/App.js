@@ -1,30 +1,26 @@
-import React, { Component } from 'react';
-import { Provider } from "react-redux";
-import { store } from "./state";
+import React, {Component} from 'react';
+import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom';
+import {Provider} from "react-redux";
+import {store} from "./state";
 
-import logo from './logo.svg';
+import {Main} from "./containers/main";
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <Provider store={store}>
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+        <div className="App">
+          <BrowserRouter>
+            <Switch>
+              <Main>
+                <Route exact path="/workers" render={() => (<div>Workers</div>)}/>
+              </Main>
+              <Redirect to="/"/>
+            </Switch>
+          </BrowserRouter>
+        </div>
       </Provider>
     );
   }

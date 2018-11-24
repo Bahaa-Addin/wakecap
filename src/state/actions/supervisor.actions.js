@@ -1,5 +1,4 @@
 import {supervisorServices} from '../../services';
-// import { alertActions } from './alertActions';
 
 export const FETCH_SUPERVISOR_REQUEST = 'FETCH_SUPERVISOR_REQUEST';
 export const FETCH_SUPERVISOR_SUCCESS = 'FETCH_SUPERVISOR_SUCCESS';

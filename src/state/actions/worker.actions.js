@@ -1,5 +1,4 @@
 import { workerServices } from '../../services';
-// import { alertActions } from './alertActions';
 
 export const FETCH_WORKERS_REQUEST = 'FETCH_WORKERS_REQUEST';
 export const FETCH_WORKERS_SUCCESS = 'FETCH_WORKERS_SUCCESS';
