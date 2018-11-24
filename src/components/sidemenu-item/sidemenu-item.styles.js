@@ -10,7 +10,7 @@ export const styles = theme => ({
     backgroundColor: theme.palette.background.paper
   },
   listItem: {
-    textAlign: 'left',
+    textAlign: 'center',
     textTransform: 'none',
     display: 'flex',
     paddingTop: 0,

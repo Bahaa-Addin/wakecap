@@ -9,7 +9,7 @@ import AppBar from "@material-ui/core/AppBar";
 
 import { SideMenu } from "../../components/sidemenu";
 import { NavMenu } from "../../components/navmenu/NavMenu.component";
-import { ToolBar } from "../../components/toolbar/ToolBar.component";
+import { NavBar } from "../../components/navbar/NavBar.component";
 
 // Actions
 import {
@@ -53,7 +53,7 @@ class Main extends Component {
         </SideMenu>
         <main className={scss["main"]}>
           <AppBar color="default" position="static">
-            <ToolBar />
+            <NavBar />
           </AppBar>
           <div className={scss["content-wrapper"]}>
             <div className={scss["content"]}>{children}</div>

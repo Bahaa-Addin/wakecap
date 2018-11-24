@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import {withRouter} from "react-router-dom";
 import {connect} from "react-redux";
 import PropTypes from "prop-types";
@@ -13,6 +13,9 @@ import MenuItem from "@material-ui/core/MenuItem";
 import withWidth, {isWidthDown} from "@material-ui/core/withWidth";
 
 import MenuIcon from "@material-ui/icons/Menu";
+import AccountIcon from "@material-ui/icons/AccountCircle";
+import ArrowDownIcon from "@material-ui/icons/ArrowDropDown";
+import LogoutIcon from "@material-ui/icons/ExitToApp";
 
 import Snackbar from "@material-ui/core/Snackbar";
 
@@ -27,16 +30,17 @@ import {userActions} from "../../state/actions/user.actions";
 
 import {routes} from "../../constants/routes.constants";
 
-import {styles} from "./toolbar.styles";
+import {styles} from "./navbar.styles";
 
 const setTitle = (items, currentPath) => (
   items.find(item => item.href === currentPath).title
 );
 
-class ToolBar extends React.Component {
+class NavBar extends Component {
   state = {
     login: false,
-    name: ""
+    name: "",
+    layoutAccountMenuOpen: false
   };
 
   componentDidMount() {
@@ -99,8 +103,9 @@ class ToolBar extends React.Component {
                 style={{textTransform: "capitalize"}}
                 size="small"
               >
-                {this.state.name}
-                <MenuIcon/>
+                <AccountIcon />
+                  {this.state.name}
+                <ArrowDownIcon/>
               </Button>
 
               <Menu
@@ -113,7 +118,7 @@ class ToolBar extends React.Component {
                   style={{paddingLeft: 15, paddingRight: 15}}
                   onClick={event => this.handleLogoutClick(event, "logout")}
                 >
-                  <MenuIcon/>Logout
+                   Logout <LogoutIcon/>
                 </MenuItem>
               </Menu>
             </div>
@@ -147,7 +152,7 @@ const mapDispatchToProps = (dispatch) => ({
   toggleSidenav: () => dispatch(toggleSidenav()),
 });
 
-ToolBar.propTypes = {
+NavBar.propTypes = {
   width: PropTypes.string.isRequired,
   layout: PropTypes.shape({
     sidenavOpen: PropTypes.bool
@@ -155,10 +160,10 @@ ToolBar.propTypes = {
   toggleSidenav: PropTypes.func.isRequired,
 };
 
-const composedToolBar = compose(
+const composedNavBar = compose(
   withRouter,
   withWidth(),
   withStyles(styles),
   connect(mapStateToProps, mapDispatchToProps)
-)(ToolBar);
-export {composedToolBar as ToolBar};
+)(NavBar);
+export {composedNavBar as NavBar};

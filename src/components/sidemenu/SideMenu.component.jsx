@@ -38,9 +38,10 @@ const SideMenu = (props) => {
         <AppBar
           color="default"
           position="static"
+          className={scss["sidemenu-appbar"]}
         >
           <Toolbar>
-            <img src={logoImage} className={scss['toolbar-brand']} alt="logo" />
+            <img src={logoImage} className={scss['sidemenu-brand']} alt="logo" />
           </Toolbar>
         </AppBar>
         {/* main menu */}

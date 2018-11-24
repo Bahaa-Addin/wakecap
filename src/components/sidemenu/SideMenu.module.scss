@@ -1,14 +1,17 @@
-.toolbar-brand {
+.sidemenu-appbar {
+  align-items: center;
+}
+.sidemenu-brand {
   max-height: 64px;
   max-width: 100%;
   padding: 8px 0px;
   box-sizing: border-box;
   object-fit: contain;
 }
-.toolbar-brand-text {
+.sidemenu-brand-text {
   overflow: hidden;
   text-overflow: ellipsis;
 }
 .sidemenu {
-  width: 175px;
+  width: 225px;
 }

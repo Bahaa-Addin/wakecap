@@ -1,9 +1,8 @@
 import axios from "axios";
-import { rootUrl } from "../constants";
 
 const login = ({email, password}) => {
   const requestOptions = {
-    url: `${rootUrl}/auth/login`,
+    url: `/auth/login`,
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     withCredentials: true,

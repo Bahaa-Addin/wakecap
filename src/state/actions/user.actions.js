@@ -17,20 +17,19 @@ const login = ({email, password}) => {
     userServices.login({email, password})
       .then(
         user => {
-          dispatch(success(user));
           const {id, name, token} = user;
-
           setUser({id, name});
           setToken(token);
+          dispatch(success(user));
         },
         error => {
-          dispatch(failure(error));
           removeUser();
+          dispatch(failure(error));
         }
       )
       .catch(error => {
-        dispatch(failure(error));
         removeUser();
+        dispatch(failure(error));
       })
   };
 };

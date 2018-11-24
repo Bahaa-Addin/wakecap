@@ -1,9 +1,8 @@
 import axios from "axios";
-import {rootUrl} from "../constants";
 import {authHeader} from "../helpers";
 
 const fetchWorkers = (params) => {
-  let url = `${rootUrl}/api/workers`;
+  let url = `/api/workers`;
   if (params) {
     const requestParams = Object.keys(params)
       .map(key => `${key}=${params[key]}`)

@@ -1,9 +1,8 @@
 import axios from "axios";
-import {rootUrl} from "../constants";
 import {authHeader} from "../helpers";
 
 const fetchSupervisors = (params) => {
-  let url = `${rootUrl}/api/supervisors`;
+  let url = `/api/supervisors`;
   if (params) {
     const requestParams = Object.keys(params)
       .map(key => `${key}=${params[key]}`)
