@@ -6,6 +6,7 @@ import {getUser} from "./helpers";
 
 import {Login} from "./components/login";
 import {Main} from "./containers/main";
+import {Workers} from "./containers/workers"
 
 import './App.css';
 
@@ -22,14 +23,14 @@ class App extends Component {
                   : <Login {...props} />
               )}
               />
+              <Main>
               <Route exact path="/workers" render={props => (
                 getUser()
-                  ? (<Main>
-                      <div>Workers</div>
-                    </Main>)
+                  ? <Workers />
                   : <Redirect to={{pathname: '/login', state: {from: props.location}}}/>
               )}
               />
+                </Main>
               <Redirect to="/workers"/>
             </Switch>
           </BrowserRouter>

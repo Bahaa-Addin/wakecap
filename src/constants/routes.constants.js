@@ -1,7 +1,7 @@
 export const routes = [
   {
     title: "Dashboard",
-    href: "/dashboard",
+    href: "/",
   },
   {
     title: "Workers",

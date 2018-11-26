@@ -1,0 +1,20 @@
+.thread-list__item {
+  cursor: pointer;
+  height: 80px;
+  padding: 0 16px;
+}
+
+.thread-list__item__text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 1em 1em 0;
+  border-top: 1px solid #cecece;
+  padding: .5em;
+}

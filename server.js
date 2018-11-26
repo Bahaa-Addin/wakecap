@@ -13,7 +13,7 @@ server.use(bodyParser.urlencoded({extended: true}));
 server.use(bodyParser.json());
 
 const SECRET_KEY = '123456789';
-const expiresIn = '1h';
+const expiresIn = '168h';
 
 // Create a token from a payload
 function createToken(payload) {
@@ -34,7 +34,7 @@ server.post('/auth/login', (req, res) => {
   const {email, password} = req.body;
   if (isAuthenticated({email, password}) === false) {
     const status = 401;
-    const message = 'Incorrect email or password';
+    const message = 'Incorrect workers-list or password';
     res.status(status).json({status, message});
     return
   }
@@ -64,6 +64,9 @@ server.use(/^(?!\/auth).*$/, (req, res, next) => {
   }
 });
 
+server.use(function(req, res, next){
+  setTimeout(next, 1000);
+});
 server.use('/api', router);
 
 server.listen(4444, () => {

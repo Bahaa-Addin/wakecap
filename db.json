@@ -19,8 +19,8 @@
       "asset_id": "2022",
       "tag_id": "3020",
       "name": "Shaw Fuentes",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 10,
           "tuesday": 7,
           "wednesday": 6,
@@ -49,8 +49,8 @@
       "asset_id": "2005",
       "tag_id": "3003",
       "name": "Dominguez Hopper",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 11,
           "tuesday": 8,
           "wednesday": 12,
@@ -79,8 +79,8 @@
       "asset_id": 2021,
       "tag_id": 3007,
       "name": "Myers Mathis",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 12,
           "tuesday": 8,
           "wednesday": 10,
@@ -109,8 +109,8 @@
       "asset_id": 2025,
       "tag_id": 3012,
       "name": "Hardy Wells",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 6,
           "tuesday": 11,
           "wednesday": 7,
@@ -139,8 +139,8 @@
       "asset_id": 2007,
       "tag_id": 3005,
       "name": "Hawkins Gregory",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 7,
           "tuesday": 10,
           "wednesday": 9,
@@ -169,8 +169,8 @@
       "asset_id": 2028,
       "tag_id": 3018,
       "name": "Duncan Moreno",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 10,
           "tuesday": 12,
           "wednesday": 9,
@@ -199,8 +199,8 @@
       "asset_id": 2004,
       "tag_id": 3023,
       "name": "Vicky Tran",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 7,
           "tuesday": 9,
           "wednesday": 10,
@@ -229,8 +229,8 @@
       "asset_id": 2015,
       "tag_id": 3010,
       "name": "Shelton Eaton",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 6,
           "tuesday": 9,
           "wednesday": 6,
@@ -259,8 +259,8 @@
       "asset_id": 2001,
       "tag_id": 3001,
       "name": "Nora Tyson",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 10,
           "tuesday": 11,
           "wednesday": 12,
@@ -289,8 +289,8 @@
       "asset_id": 2014,
       "tag_id": 3009,
       "name": "Mercado Wilson",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 7,
           "tuesday": 9,
           "wednesday": 8,
@@ -319,8 +319,8 @@
       "asset_id": 2010,
       "tag_id": 3030,
       "name": "Laverne Kaufman",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 10,
           "tuesday": 6,
           "wednesday": 11,
@@ -349,8 +349,8 @@
       "asset_id": 2010,
       "tag_id": 3011,
       "name": "Miles Yates",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 11,
           "tuesday": 11,
           "wednesday": 9,
@@ -379,8 +379,8 @@
       "asset_id": 2028,
       "tag_id": 3021,
       "name": "Sherman Cruz",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 12,
           "tuesday": 9,
           "wednesday": 11,
@@ -409,8 +409,8 @@
       "asset_id": 2023,
       "tag_id": 3025,
       "name": "Lottie Maldonado",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 9,
           "tuesday": 11,
           "wednesday": 6,
@@ -439,8 +439,8 @@
       "asset_id": 2022,
       "tag_id": 3005,
       "name": "Simone Kramer",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 11,
           "tuesday": 7,
           "wednesday": 6,
@@ -469,8 +469,8 @@
       "asset_id": 2017,
       "tag_id": 3020,
       "name": "Petty Day",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 11,
           "tuesday": 11,
           "wednesday": 6,
@@ -499,8 +499,8 @@
       "asset_id": 2014,
       "tag_id": 3024,
       "name": "Potter Navarro",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 9,
           "tuesday": 12,
           "wednesday": 9,
@@ -529,8 +529,8 @@
       "asset_id": 2004,
       "tag_id": 3006,
       "name": "Erin Knowles",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 7,
           "tuesday": 6,
           "wednesday": 6,
@@ -559,8 +559,8 @@
       "asset_id": 2008,
       "tag_id": 3020,
       "name": "Kitty Trevino",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 6,
           "tuesday": 10,
           "wednesday": 7,
@@ -589,8 +589,8 @@
       "asset_id": 2010,
       "tag_id": 3012,
       "name": "Mendez Hogan",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 8,
           "tuesday": 9,
           "wednesday": 6,
@@ -619,8 +619,8 @@
       "asset_id": 2026,
       "tag_id": 3010,
       "name": "Mason Joyce",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 6,
           "tuesday": 10,
           "wednesday": 12,
@@ -649,8 +649,8 @@
       "asset_id": 2009,
       "tag_id": 3026,
       "name": "Ford Marquez",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 7,
           "tuesday": 8,
           "wednesday": 12,
@@ -679,8 +679,8 @@
       "asset_id": 2001,
       "tag_id": 3001,
       "name": "Newton Landry",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 9,
           "tuesday": 10,
           "wednesday": 12,
@@ -709,8 +709,8 @@
       "asset_id": 2011,
       "tag_id": 3028,
       "name": "Katina Daniel",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 12,
           "tuesday": 6,
           "wednesday": 6,
@@ -739,8 +739,8 @@
       "asset_id": 2029,
       "tag_id": 3011,
       "name": "Janice Sparks",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 12,
           "tuesday": 11,
           "wednesday": 8,
@@ -769,8 +769,8 @@
       "asset_id": 2027,
       "tag_id": 3007,
       "name": "Leona Graves",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 6,
           "tuesday": 6,
           "wednesday": 10,
@@ -799,8 +799,8 @@
       "asset_id": 2007,
       "tag_id": 3020,
       "name": "Bradshaw Bradshaw",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 11,
           "tuesday": 8,
           "wednesday": 10,
@@ -829,8 +829,8 @@
       "asset_id": 2024,
       "tag_id": 3023,
       "name": "Pratt Tucker",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 8,
           "tuesday": 8,
           "wednesday": 12,
@@ -859,8 +859,8 @@
       "asset_id": 2003,
       "tag_id": 3020,
       "name": "Bass Fields",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 9,
           "tuesday": 8,
           "wednesday": 10,
@@ -889,8 +889,8 @@
       "asset_id": 2028,
       "tag_id": 3021,
       "name": "Amber Floyd",
-      "hours_worked": {
-        "last_week": {
+      "hoursWorked": {
+        "lastWeek": {
           "monday": 11,
           "tuesday": 7,
           "wednesday": 8,

@@ -6,10 +6,11 @@ import { withRouter } from 'react-router-dom';
 
 // Material components
 import AppBar from '@material-ui/core/AppBar';
-import Drawer from '@material-ui/core/Drawer';
+import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+import withWidth, {isWidthDown} from "@material-ui/core/withWidth";
 
 // Portal components
 import logoImage from '../../assets/images/logo.png';
@@ -25,10 +26,14 @@ const SideMenu = (props) => {
     layout
   } = props;
 
+   const variant = isWidthDown("sm", props.width) ? "temporary" : "persistent";
+
   return (
-      <Drawer
-        variant="persistent"
+      <SwipeableDrawer
+        variant={variant}
+        anchor="left"
         open={layout.sidenavOpen}
+        onOpen={() => {}}
         onClose={props.toggleSidenav}
         classes={{
           paper: scss[`sidemenu`]
@@ -57,7 +62,7 @@ const SideMenu = (props) => {
             </IconButton>
           </Toolbar>
         </AppBar>
-      </Drawer>
+      </SwipeableDrawer>
   );
 };
 
@@ -80,6 +85,7 @@ SideMenu.propTypes = {
 };
 
 const composedSideMenu = compose(
+  withWidth(),
   withRouter,
   connect(mapStateToProps, mapDispatchToProps)
 )(SideMenu);
