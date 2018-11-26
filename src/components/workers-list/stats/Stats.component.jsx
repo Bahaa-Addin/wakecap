@@ -78,7 +78,7 @@ const Stats = ({classes, width, worker, supervisor}) => (
           <Grid item xs={12}>
             <Grid container justify="center" spacing={8}>
               <Grid item xs={12} sm={12} md={12}>
-                <Grid container justify="center" spacing={2}>
+                <Grid container justify="center" spacing={8}>
                   <Grid key={4} item xs={12} md={4} className={classes.widget}>
                     <div>
                       <div className={scss["worker-stats"]}>
