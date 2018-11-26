@@ -50,6 +50,11 @@
     justify-content: space-around;
     align-items: start;
 
+    @media (max-width: 1230px) {
+      justify-content: center;
+      align-items: center;
+    }
+
     .stats-helmet-title {
       margin: 0 1.5em;
     }
@@ -58,6 +63,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
+      @media (max-width: 1230px) {
+        flex-direction: column;
+        margin-bottom: 2em;
+      }
 
       .stats-helmet-card {
         border: 5px solid #000;
