@@ -78,15 +78,15 @@ const Stats = ({classes, width, worker, supervisor}) => (
           <Grid item xs={12}>
             <Grid container justify="center" spacing={8}>
               <Grid item xs={12} sm={12} md={12}>
-                <Grid container justify="center" spacing={8}>
+                <Grid container justify="center" spacing={2}>
                   <Grid key={4} item xs={12} md={4} className={classes.widget}>
                     <div>
                       <div className={scss["worker-stats"]}>
                         <Avatar alt="Hours" src={calendarIcon} className={scss["stats-header-avatar"]}
                         />
                         <div className={scss["stats-header-title"]}>
-                          <Typography variant="h6">Total Hours Worked</Typography>
-                          <Typography variant="h2" gutterBottom>
+                          <Typography variant="subtitle1">Total Hours Worked</Typography>
+                          <Typography variant="h5" gutterBottom>
                             <b>{worker.hoursWorked.total}</b>
                           </Typography>
                         </div>
@@ -95,8 +95,8 @@ const Stats = ({classes, width, worker, supervisor}) => (
                         <Avatar alt="Location" src={locationIcon} className={scss["stats-header-avatar"]}
                         />
                         <div className={scss["stats-header-title"]}>
-                          <Typography variant="h6">Last Active Zone</Typography>
-                          <Typography variant="h2" gutterBottom>
+                          <Typography variant="subtitle1">Last Active Zone</Typography>
+                          <Typography variant="h5" gutterBottom>
                             <b>{worker.area}</b>
                           </Typography>
                         </div>
