@@ -32,9 +32,12 @@ import {routes} from "../../constants/routes.constants";
 
 import {styles} from "./navbar.styles";
 
-const setTitle = (items, currentPath) => (
-  items.find(item => item.href === currentPath).title
-);
+const setTitle = (items, currentPath) => {
+  const route = items.find(item => item.href === currentPath);
+  return route
+          ? route.title
+          : '';
+};
 
 class NavBar extends Component {
   state = {

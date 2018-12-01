@@ -94,7 +94,7 @@ const mapDispatchToProps = (dispatch) => ({
 
 Main.propTypes = {
   classes: PropTypes.shape({}).isRequired,
-  children: PropTypes.shape({}).isRequired,
+  children: PropTypes.PropTypes.shape({}).isRequired,
   width: PropTypes.string.isRequired,
   setSidenavOpen: PropTypes.func.isRequired
 };

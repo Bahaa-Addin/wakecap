@@ -9,6 +9,7 @@ import Divider from '@material-ui/core/Divider';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import classNames from 'classnames';
+import uuid from 'uuid/v1';
 
 import {BarChart} from "../../bar-chart";
 
@@ -139,7 +140,7 @@ const Stats = ({classes, width, worker, supervisor}) => (
       </Typography>
       <div className={scss["stats-helmet-body"]}>
         {worker.helmets.map(helmet => (
-          <div className={scss["stats-helmet-card"]} key={helmet.id}>
+          <div className={scss["stats-helmet-card"]} key={uuid()}>
             <div>
               <Avatar alt="Helmet" src={helmetIcon} className={scss["stats-helmet-avatar"]}
               />

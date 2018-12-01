@@ -6,7 +6,8 @@ import {getUser} from "./helpers";
 
 import {Login} from "./components/login";
 import {Main} from "./containers/main";
-import {Workers} from "./containers/workers"
+
+import {routes} from "./constants";
 
 import './App.css';
 
@@ -24,14 +25,22 @@ class App extends Component {
               )}
               />
               <Main>
-              <Route exact path="/workers" render={props => (
-                getUser()
-                  ? <Workers />
-                  : <Redirect to={{pathname: '/login', state: {from: props.location}}}/>
-              )}
-              />
-                </Main>
-              <Redirect to="/workers"/>
+                <Switch>
+                  {routes.map(route => (
+                    <Route
+                      exact
+                      key={route.href}
+                      path={route.href}
+                      render={props => (
+                        getUser()
+                          ? route.component
+                          : <Redirect to={{pathname: '/login', state: {from: props.location}}}/>
+                      )}
+                    />
+                  ))}
+                  <Redirect to="/workers"/>
+                </Switch>
+              </Main>
             </Switch>
           </BrowserRouter>
         </div>
