@@ -1,12 +1,12 @@
 import React from 'react';
-import {Dashboard} from "../containers/dashboard";
 import {Workers} from "../containers/workers";
+import {ComingSoon} from "../components/coming-soon";
 
 export const routes = [
   {
     title: "Dashboard",
     href: "/dashboard",
-    component: (<Dashboard />)
+    component: (<ComingSoon />)
   },
   {
     title: "Workers",
@@ -16,26 +16,26 @@ export const routes = [
   {
     title: "Zones",
     href: "/zones",
-    component: (<div> </div>)
+    component: (<ComingSoon />)
   },
   {
     title: "Assign Helments",
     href: "/helmets",
-    component: (<div> </div>)
+    component: (<ComingSoon />)
   },
   {
     title: "Reports",
     href: "/reports",
-    component: (<div> </div>)
+    component: (<ComingSoon />)
   },
   {
     title: "Manage Sites",
     href: "/sites",
-    component: (<div> </div>)
+    component: (<ComingSoon />)
   },
   {
     title: "Settings",
     href: "/settings",
-    component: (<div> </div>)
+    component: (<ComingSoon />)
   },
 ];
